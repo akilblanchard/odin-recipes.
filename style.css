@@ -4,13 +4,10 @@
 }
 
 
-
 #logo{
     height:250px;
     margin: -30px;
 }
-
-
 
 
 .dishes-container{
@@ -20,8 +17,6 @@
     gap:80px;
     
 }
-
-
 
 .dishes-container img{
     width: 400px;
