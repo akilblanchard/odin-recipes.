@@ -8,28 +8,28 @@
 #logo{
     height:250px;
     margin: -30px;
-    
 }
+
+
+
 
 .dishes-container{
     display: flex;
     justify-content: center;
     align-items: center;
     gap:80px;
-    padding-top: 55px;
-}
-
-
-
-.dishes-container img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
-    height: auto;
-    gap:80px; 
     
 }
 
 
 
+.dishes-container img{
+    width: 400px;
+    height: auto;
+    padding-top: 55px;
+    
+}
+
+.item img:hover{
+    transform: scale(1.05);
+}
