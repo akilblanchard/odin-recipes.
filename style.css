@@ -1,12 +1,12 @@
-*{
-   // border: 1px red solid;
-    text-align: center;
-}
-
-
 #logo{
     height:250px;
-    margin: -30px;
+    margin-left: auto;
+    display: block;
+    margin-right: auto; 
+}
+
+.heading, .title{
+    text-align: center;
 }
 
 
@@ -15,16 +15,76 @@
     justify-content: center;
     align-items: center;
     gap:80px;
+    flex-wrap:wrap;
     
 }
 
 .dishes-container img{
     width: 400px;
-    height: auto;
     padding-top: 55px;
-    
+
 }
 
 .item img:hover{
     transform: scale(1.05);
+}
+
+.item{
+    isplay: flex;
+    flex-direction: column;
+    align-items:center;
+    width:400px;
+    text-align: center;
+}
+
+
+
+
+.content-container{
+   display: flex;
+   flex-direction: row;
+   
+}
+
+
+.right-top{
+    border: 1px rgb(199, 202, 162) solid;
+    border-radius: 5px;
+    margin-top: 25px;
+    height: 490px;
+
+}
+
+.instructions{
+    border: 1px #c7caa2 solid;
+    margin-top: 60px;
+    border-radius: 5px;
+    height: 490px;
+   
+}
+
+.right-top, .instructions{
+    padding: 0 15px 10px 15px;
+    
+}
+
+
+
+.left{
+    order: -1;
+    padding: 25px;
+}
+
+
+.left img{
+    width: 350px;
+    height: 500px;
+    
+}
+
+.ingredients{
+    background-color:#c7caa2 ;
+    margin-top: 60px;
+    height:450px;
+
 }
